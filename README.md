@@ -5,7 +5,7 @@ In this setup we are using 1 Master and 1 Node configuration
 ## Setting up Centos Servers
 Create volume according to Openshift Origin document https://docs.okd.io/latest/install/prerequisites.html
 
-### Yum Repo
+### Yum Repo Setup
  1. Copy all the files in /etc/yum.repos.d from centos docker container to same location on the servers
  2. Create no password ssh login for root
 
