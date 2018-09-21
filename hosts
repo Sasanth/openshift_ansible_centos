@@ -20,13 +20,13 @@ containerized=true
 
 # host group for masters
 [masters]
-avid141.sasanth.info
+<master dns name>
 
 # host group for etcd
 [etcd]
-avid141.sasanth.info
+<master dns name>
 
 # host group for nodes, includes region info
 [nodes]
-avid141.sasanth.info openshift_node_group_name='node-config-master'
-avid193.sasanth.info openshift_node_group_name='node-config-compute'
+<master dns name> openshift_node_group_name='node-config-master'
+<node dns name> openshift_node_group_name='node-config-compute'
