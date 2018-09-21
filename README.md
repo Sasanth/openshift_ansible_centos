@@ -15,9 +15,9 @@ Create volume according to Openshift Origin document https://docs.okd.io/latest/
  3. Restart the servers
 
 ### Installing nessary Packages
- `yum install epel-release ansible git NetworkManager -y`
- `easy_install pip`
- `pip install --upgrade ansible`
+ `yum install epel-release ansible git NetworkManager -y  `
+ `easy_install pip  `
+ `pip install --upgrade ansible  `
 
 ### Clone Openshift repo
  ```
